@@ -52,8 +52,9 @@ body {
 
 
 #hero{
-  padding: 50px 0;
+  padding: 30px 0 170px 0;
   background-color: #F8EDF0;
+  position: relative;
 }
 .hero__content{
   display: flex;
@@ -89,7 +90,7 @@ body {
   color: #0F0101;
   opacity: 0.9;
   margin-bottom: 35px;
-  width: 550px;
+  width: 630px;
 }
 .hero__title span{
   color: #D23166;
@@ -112,12 +113,19 @@ body {
   border: 2px solid #D23166;
 }
 .hero__imgbox{
-  position: relative;
   background-image:url('../images/herobg-img.svg');
   background-repeat: no-repeat;
   background-size: 365px 353px;
   background-position: center center;
 }
+.hero-img{
+  position: absolute;
+  top: 30px;
+  right: -80px;
+}
+
+
+
 
 #shop{
   padding: 100px 0;
