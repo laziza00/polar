@@ -573,7 +573,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  border: 1px solid #D64374;
+  border: none;
   padding: 15px 15px;
   color: #fff;
   cursor: pointer;
